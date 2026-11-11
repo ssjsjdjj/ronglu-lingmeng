@@ -1,0 +1,10 @@
+{
+  "name": "ronglu-lingmeng",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test tests/engine.test.mjs tests/systems.test.mjs",
+    "preview": "node server.mjs",
+    "balance": "node tests/balance.mjs"
+  }
+}
