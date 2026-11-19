@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <title>苔灯漫游 · 微信小游戏试玩</title>
+  <style>
+    *{box-sizing:border-box}html,body{margin:0;min-height:100%;background:#102f2a;color:#f0e8ce;font-family:"Microsoft YaHei",sans-serif}
+    body{min-height:100vh;display:flex;justify-content:center;align-items:center;gap:100px;padding:32px;background:radial-gradient(ellipse at 20% 20%,#385744 0,transparent 55%),#102f2a}
+    .intro{max-width:400px}.eyebrow{font-size:12px;letter-spacing:4px;color:#c6b784}.intro h1{font-family:serif;font-weight:500;font-size:52px;line-height:1.5;letter-spacing:4px;margin:25px 0}.intro p{color:#abc0a9;font-size:14px;line-height:2}.pills{display:flex;gap:10px;margin-top:30px}.pills span{border:1px solid #5a7057;border-radius:30px;padding:7px 12px;font-size:11px;color:#d2cfaa}.note{margin-top:44px;font-size:11px!important;opacity:.7}
+    .phone{border:1px solid #69816a;border-radius:34px;padding:8px;background:#0a2422;box-shadow:0 40px 100px #001b1880;flex-shrink:0}canvas{display:block;width:390px;height:844px;max-height:calc(100vh - 80px);border-radius:26px;touch-action:none;user-select:none;-webkit-user-select:none}
+    @media(max-width:1050px){body{gap:40px}.intro{max-width:300px}.intro h1{font-size:40px}}
+    @media(max-width:760px){body{padding:0;display:block}.intro{display:none}.phone{border:0;padding:0;border-radius:0;box-shadow:none}canvas{width:100vw;height:100vh;height:100dvh;max-height:none;border-radius:0}}
+  </style>
+</head>
+<body>
+  <section class="intro"><div class="eyebrow">苔灯漫游 · 森林消消乐</div><h1>拾起微光，<br>一路同行。</h1><p>六位森林伙伴，一千段微光旅程。<br>交换、连消、蓄能，让苔灯照亮归途。</p><div class="pills"><span>1000 关冒险</span><span>六位伙伴</span><span>随心小憩</span></div><p class="note">微信小游戏试玩版 · 浏览器预览<br>点击或拖动交换小兽；右上角菜单可切换模式。<br>与苔灯小队一起收集微光，进度保存在本机。</p></section>
+  <main class="phone"><canvas id="game" aria-label="苔灯漫游三消棋盘，点击或滑动交换相邻小兽"></canvas></main>
+  <script src="src/campaign.js"></script>
+  <script src="src/engine.js"></script>
+  <script src="src/characters.js"></script>
+  <script src="src/renderer.js"></script>
+  <script src="src/game-app.js"></script>
+  <script src="preview/browser-platform.js"></script>
+  <script>MosslightApp.createGame(MosslightBrowser.createPlatform(document.getElementById('game')));</script>
+</body>
+</html>

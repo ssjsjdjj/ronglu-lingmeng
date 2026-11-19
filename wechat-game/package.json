@@ -1,0 +1,11 @@
+{
+  "name": "mosslight-wechat-prototype",
+  "version": "0.3.2",
+  "private": true,
+  "description": "苔灯漫游：六位森林伙伴与1000关三消冒险",
+  "scripts": {
+    "test": "node --test tests/*.test.cjs",
+    "preview": "node preview/server.cjs",
+    "check:balance": "node tests/balance.cjs"
+  }
+}

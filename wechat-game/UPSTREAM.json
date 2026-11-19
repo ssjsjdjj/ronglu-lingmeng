@@ -1,0 +1,28 @@
+{
+  "repository": "https://github.com/ssjsjdjj/ronglu-lingmeng-play",
+  "commit": "514925f",
+  "engine_sha256": "ecf8c44d590851b73773290780edbab28ca1c6d4046780f04182341cc3b55550",
+  "note": "Code provenance only. Previous character images and names are not included. Six replacement character sprites were newly generated from text prompts with the built-in image_gen tool. No license grant for upstream code is inferred.",
+  "campaign": {
+    "version": 2,
+    "levels": 1000,
+    "chapters": 50,
+    "chapterSize": 20,
+    "preservedIntroLevels": 5,
+    "preservedIntroLevelsNote": "Numerical mechanics retained; narrative and names redesigned."
+  },
+  "art": {
+    "theme": "苔灯漫游",
+    "version": 3,
+    "characters": [
+      "栗团",
+      "露铃",
+      "砾宝",
+      "芽卷",
+      "澜羽",
+      "云鼾"
+    ],
+    "method": "text-to-image; no prior character reference inputs",
+    "legalReview": "No trademark or third-party similarity clearance claimed"
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "description": "苔灯漫游 · 原创角色1000关微信小游戏试玩版",
+  "compileType": "game",
+  "appid": "wxf02b3d8512e5dc8c",
+  "projectname": "mosslight-adventure-0.3.2",
+  "miniprogramRoot": "./",
+  "setting": {
+    "urlCheck": true,
+    "es6": true,
+    "enhance": true,
+    "minified": true,
+    "uploadWithSourceMap": true
+  },
+  "packOptions": {
+    "ignore": [
+      {
+        "type": "folder",
+        "value": "preview"
+      },
+      {
+        "type": "folder",
+        "value": "tests"
+      },
+      {
+        "type": "file",
+        "value": "README.md"
+      },
+      {
+        "type": "file",
+        "value": "package.json"
+      },
+      {
+        "type": "file",
+        "value": "UPSTREAM.json"
+      },
+      {
+        "type": "file",
+        "value": "试玩预览.html"
+      },
+      {
+        "type": "file",
+        "value": "验证记录.md"
+      }
+    ],
+    "include": []
+  }
+}

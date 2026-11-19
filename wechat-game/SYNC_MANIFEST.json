@@ -1,0 +1,123 @@
+{
+  "date": "2026-11-19",
+  "project": "ronglu-wechat",
+  "private": true,
+  "files": [
+    {
+      "path": "game.js",
+      "bytes": 142,
+      "sha256": "775bb6add261485024152b0eb338c5e5178186c918ef7443a4ff370359e1263b"
+    },
+    {
+      "path": "game.json",
+      "bytes": 64,
+      "sha256": "82526622d158db584fe0783eb469d01eaaa33a85360c28d83bf2b01cb031b8ec"
+    },
+    {
+      "path": "package.json",
+      "bytes": 323,
+      "sha256": "c2fdd7cf0bc36ad33bbed0bca1bb0c223fb5ceb4dfbab651e30c66ad8d53556f"
+    },
+    {
+      "path": "project.config.json",
+      "bytes": 968,
+      "sha256": "b48b9e85f158e9c0534ac913a5d4c89522ff264a4e7893fdc5e71173260ae602"
+    },
+    {
+      "path": "README.md",
+      "bytes": 9058,
+      "sha256": "19b33867b22e9b63ff0743d7c164277cd02fa9fe35c8c9900d18e4022bfde09e"
+    },
+    {
+      "path": "UPSTREAM.json",
+      "bytes": 1013,
+      "sha256": "c15cda42202456b876acc53d3153cd30beb002417253f701d05d6dd166b10e22"
+    },
+    {
+      "path": "试玩预览.html",
+      "bytes": 2708,
+      "sha256": "8e77f4a5f35dba0af9a3dca1806e6c1deb03d760af32db0d9bee1799ad3e5cd4"
+    },
+    {
+      "path": "验证记录.md",
+      "bytes": 6055,
+      "sha256": "7ab701991355b4bbf694b81af385ec77782cdf20f5e93b0af0b605636b9fd5ea"
+    },
+    {
+      "path": "assets/lanyu.png",
+      "bytes": 61844,
+      "sha256": "7314d2e567f68dc4084fa12bddfd59bf00f9eaf71039cb332982a220499892ca"
+    },
+    {
+      "path": "assets/libao.png",
+      "bytes": 62007,
+      "sha256": "448eaaa98de924dc9af1ce54f565cc66334a1cd741406b01932ff543b32449e9"
+    },
+    {
+      "path": "assets/lituan.png",
+      "bytes": 73654,
+      "sha256": "bba935046bc8c21d2eb222025a402786825dc4287239dee53358a092a24ce307"
+    },
+    {
+      "path": "assets/luling.png",
+      "bytes": 68915,
+      "sha256": "b48344a10a261eddacbb7b6157614a5575edf276d38109691d2227c516c14651"
+    },
+    {
+      "path": "assets/yajuan.png",
+      "bytes": 75544,
+      "sha256": "51c1dec9a3447606551f86961ca5a2e46f4eda1ccf8d1e74eb403e43a3c2e1e1"
+    },
+    {
+      "path": "assets/yunhan.png",
+      "bytes": 55211,
+      "sha256": "da90ae6249b2128fceb0fb6beecf33dba86e7eadb157190596103eeeff627f75"
+    },
+    {
+      "path": "src/campaign.js",
+      "bytes": 5118,
+      "sha256": "154f3068fe9a86c24be2de180fc229976e5433680a41454651f984dd95a81007"
+    },
+    {
+      "path": "src/characters.js",
+      "bytes": 1602,
+      "sha256": "327d682a8f2d27c4fb7a440e76353c4119211f5334d6bbf4726b7dcc3b9cf1cb"
+    },
+    {
+      "path": "src/engine.js",
+      "bytes": 17030,
+      "sha256": "a9e53fb3cfe387dbcbd37ac695b1def64ab0357904fc2238d004e1293528bd90"
+    },
+    {
+      "path": "src/game-app.js",
+      "bytes": 15963,
+      "sha256": "40afe7c87457dfe938594034a01642c86bf4dd9ca1b30f94d8ed4b0a0d6c4327"
+    },
+    {
+      "path": "src/renderer.js",
+      "bytes": 18333,
+      "sha256": "1c728cecd900499bfdd937448f8bceba02ac49e737340adaabe635ce6d045ebf"
+    },
+    {
+      "path": "src/wechat-platform.js",
+      "bytes": 3391,
+      "sha256": "ef5fcf7f4812d06e211a301fdeaca9faa51ce39dfe3da340241e90d753fd80e4"
+    },
+    {
+      "path": "tests/balance.cjs",
+      "bytes": 2757,
+      "sha256": "47382bce1a072d8b25ce3ad8070da6bb8c85f9139310071b7adfd9caea957deb"
+    },
+    {
+      "path": "tests/game.test.cjs",
+      "bytes": 15354,
+      "sha256": "af78ce2aa1c3be641630fa704494ca133c48e744b258f724757da10dd3dc7384"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 107,
+      "sha256": "9536380997165e6a70ed0400840703fbaed70cedcca949a85eb29ceb4ebe46f3"
+    }
+  ],
+  "note": "同步现有源码和说明；未包含本机凭据、依赖目录、临时工作文件或微信私有配置。源业务验证结论见README和原记录。"
+}
